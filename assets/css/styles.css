@@ -359,6 +359,19 @@ section p {
   .sec-3 .competence .display {
     display: none;
   }
+  .sec-4 {
+    height: 100vh;
+  }
+  .sec-4 .cards {
+    perspective: 500px;
+  }
+  .sec-4 .card {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/06/10/14/21/castle-7254622_960_720.jpg);
+    border: 1px solid;
+  }
 }
 /*=============== BREAKPOINTS ===============*/
 @media screen and (max-width: 320px) {
@@ -676,5 +689,18 @@ section p {
   }
   .sec-3 .competence .display {
     display: none;
+  }
+  .sec-4 {
+    height: 100vh;
+  }
+  .sec-4 .cards {
+    perspective: 500px;
+  }
+  .sec-4 .card {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/06/10/14/21/castle-7254622_960_720.jpg);
+    border: 1px solid;
   }
 }/*# sourceMappingURL=styles.css.map */
