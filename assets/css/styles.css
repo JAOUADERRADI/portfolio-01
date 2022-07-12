@@ -255,6 +255,59 @@ section p {
 }
 
 /*=============== SEC-3 ===============*/
+.sec-3 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-3 .competence h2 {
+  margin: 2% 0 2% 0;
+}
+.sec-3 .competence .flex {
+  display: flex;
+  padding-left: 10vw;
+}
+.sec-3 .competence .img__filter {
+  width: 8vw;
+  padding: 2vw 0 3vh 2vw;
+  transition: all 0.04s ease;
+  filter: invert(56%) sepia(2%) saturate(0%) hue-rotate(354deg) brightness(89%) contrast(93%);
+}
+.sec-3 .competence .none {
+  visibility: hidden;
+}
+.sec-3 .competence .html:hover {
+  filter: invert(53%) sepia(72%) saturate(5384%) hue-rotate(348deg) brightness(93%) contrast(92%);
+}
+.sec-3 .competence .css:hover {
+  filter: invert(33%) sepia(93%) saturate(764%) hue-rotate(172deg) brightness(91%) contrast(94%);
+}
+.sec-3 .competence .bootstrap:hover {
+  filter: invert(24%) sepia(86%) saturate(2463%) hue-rotate(250deg) brightness(111%) contrast(101%);
+}
+.sec-3 .competence .sass:hover {
+  filter: invert(80%) sepia(40%) saturate(5229%) hue-rotate(291deg) brightness(84%) contrast(87%);
+}
+.sec-3 .competence .wordpress:hover {
+  filter: invert(19%) sepia(81%) saturate(3153%) hue-rotate(179deg) brightness(100%) contrast(101%);
+}
+.sec-3 .competence .js:hover {
+  filter: invert(89%) sepia(93%) saturate(6339%) hue-rotate(340deg) brightness(98%) contrast(96%);
+}
+.sec-3 .competence .jquery:hover {
+  filter: invert(20%) sepia(69%) saturate(3370%) hue-rotate(190deg) brightness(99%) contrast(94%);
+}
+.sec-3 .competence .react:hover {
+  filter: invert(64%) sepia(70%) saturate(1749%) hue-rotate(144deg) brightness(100%) contrast(105%);
+}
+.sec-3 .competence .php:hover {
+  filter: invert(54%) sepia(10%) saturate(1549%) hue-rotate(198deg) brightness(89%) contrast(87%);
+}
+.sec-3 .competence .symfony:hover {
+  filter: invert(5%) sepia(9%) saturate(708%) hue-rotate(240deg) brightness(100%) contrast(90%);
+}
+
 /*=============== SEC-4 ===============*/
 /*=============== SEC-5 ===============*/
 @media screen and (max-width: 767px) {
@@ -283,6 +336,27 @@ section p {
     flex-direction: column;
   }
   .sec-2 article .reseau {
+    display: none;
+  }
+  .sec-3 .competence h2 {
+    margin: 2% 0 2% 0;
+  }
+  .sec-3 .competence .flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sec-3 .competence .img__filter {
+    width: 25vw;
+    padding: 2vh 5vw 0 0;
+    transition: all 0.04s ease;
+    filter: invert(56%) sepia(2%) saturate(0%) hue-rotate(354deg) brightness(89%) contrast(93%);
+  }
+  .sec-3 .competence .none {
+    visibility: visible;
+  }
+  .sec-3 .competence .display {
     display: none;
   }
 }
@@ -499,6 +573,59 @@ section p {
 }
 
 /*=============== SEC-3 ===============*/
+.sec-3 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-3 .competence h2 {
+  margin: 2% 0 2% 0;
+}
+.sec-3 .competence .flex {
+  display: flex;
+  padding-left: 10vw;
+}
+.sec-3 .competence .img__filter {
+  width: 8vw;
+  padding: 2vw 0 3vh 2vw;
+  transition: all 0.04s ease;
+  filter: invert(56%) sepia(2%) saturate(0%) hue-rotate(354deg) brightness(89%) contrast(93%);
+}
+.sec-3 .competence .none {
+  visibility: hidden;
+}
+.sec-3 .competence .html:hover {
+  filter: invert(53%) sepia(72%) saturate(5384%) hue-rotate(348deg) brightness(93%) contrast(92%);
+}
+.sec-3 .competence .css:hover {
+  filter: invert(33%) sepia(93%) saturate(764%) hue-rotate(172deg) brightness(91%) contrast(94%);
+}
+.sec-3 .competence .bootstrap:hover {
+  filter: invert(24%) sepia(86%) saturate(2463%) hue-rotate(250deg) brightness(111%) contrast(101%);
+}
+.sec-3 .competence .sass:hover {
+  filter: invert(80%) sepia(40%) saturate(5229%) hue-rotate(291deg) brightness(84%) contrast(87%);
+}
+.sec-3 .competence .wordpress:hover {
+  filter: invert(19%) sepia(81%) saturate(3153%) hue-rotate(179deg) brightness(100%) contrast(101%);
+}
+.sec-3 .competence .js:hover {
+  filter: invert(89%) sepia(93%) saturate(6339%) hue-rotate(340deg) brightness(98%) contrast(96%);
+}
+.sec-3 .competence .jquery:hover {
+  filter: invert(20%) sepia(69%) saturate(3370%) hue-rotate(190deg) brightness(99%) contrast(94%);
+}
+.sec-3 .competence .react:hover {
+  filter: invert(64%) sepia(70%) saturate(1749%) hue-rotate(144deg) brightness(100%) contrast(105%);
+}
+.sec-3 .competence .php:hover {
+  filter: invert(54%) sepia(10%) saturate(1549%) hue-rotate(198deg) brightness(89%) contrast(87%);
+}
+.sec-3 .competence .symfony:hover {
+  filter: invert(5%) sepia(9%) saturate(708%) hue-rotate(240deg) brightness(100%) contrast(90%);
+}
+
 /*=============== SEC-4 ===============*/
 /*=============== SEC-5 ===============*/
 @media screen and (max-width: 767px) {
@@ -527,6 +654,27 @@ section p {
     flex-direction: column;
   }
   .sec-2 article .reseau {
+    display: none;
+  }
+  .sec-3 .competence h2 {
+    margin: 2% 0 2% 0;
+  }
+  .sec-3 .competence .flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sec-3 .competence .img__filter {
+    width: 25vw;
+    padding: 2vh 5vw 0 0;
+    transition: all 0.04s ease;
+    filter: invert(56%) sepia(2%) saturate(0%) hue-rotate(354deg) brightness(89%) contrast(93%);
+  }
+  .sec-3 .competence .none {
+    visibility: visible;
+  }
+  .sec-3 .competence .display {
     display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
