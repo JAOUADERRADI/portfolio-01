@@ -229,10 +229,63 @@ section p {
   display: flex;
   justify-content: space-between;
 }
+.sec-2 article .lien {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-2 article .btn-cv {
+  padding: 8px 25px;
+  border-radius: 8px;
+  transition: all 0.9s ease;
+  border: solid 0.05px var(--first-color);
+  color: var(--first-color);
+}
+.sec-2 article .btn-cv:hover {
+  color: black;
+  background-color: var(--first-color);
+}
+.sec-2 article .img__color {
+  transition: all 1s ease;
+  filter: invert(52%) sepia(0%) saturate(11%) hue-rotate(36deg) brightness(96%) contrast(91%);
+}
+.sec-2 article .img__color:hover {
+  filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(223deg) brightness(104%) contrast(104%);
+}
 
 /*=============== SEC-3 ===============*/
 /*=============== SEC-4 ===============*/
 /*=============== SEC-5 ===============*/
+@media screen and (max-width: 767px) {
+  .sec-1 {
+    margin: -20% 0 8% 0;
+  }
+  .sec-2 article {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-2 article .img {
+    width: 50%;
+    height: 30%;
+    margin: 0 0 2% 0;
+  }
+  .sec-2 article .container__apropos {
+    width: 100%;
+  }
+  .sec-2 article .informations__perso {
+    margin-top: 2%;
+    flex-direction: column;
+  }
+  .sec-2 article .lien {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-2 article .reseau {
+    display: none;
+  }
+}
 /*=============== BREAKPOINTS ===============*/
 @media screen and (max-width: 320px) {
   .nav__list {
@@ -420,7 +473,60 @@ section p {
   display: flex;
   justify-content: space-between;
 }
+.sec-2 article .lien {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-2 article .btn-cv {
+  padding: 8px 25px;
+  border-radius: 8px;
+  transition: all 0.9s ease;
+  border: solid 0.05px var(--first-color);
+  color: var(--first-color);
+}
+.sec-2 article .btn-cv:hover {
+  color: black;
+  background-color: var(--first-color);
+}
+.sec-2 article .img__color {
+  transition: all 1s ease;
+  filter: invert(52%) sepia(0%) saturate(11%) hue-rotate(36deg) brightness(96%) contrast(91%);
+}
+.sec-2 article .img__color:hover {
+  filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(223deg) brightness(104%) contrast(104%);
+}
 
 /*=============== SEC-3 ===============*/
 /*=============== SEC-4 ===============*/
-/*=============== SEC-5 ===============*//*# sourceMappingURL=styles.css.map */
+/*=============== SEC-5 ===============*/
+@media screen and (max-width: 767px) {
+  .sec-1 {
+    margin: -20% 0 8% 0;
+  }
+  .sec-2 article {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-2 article .img {
+    width: 50%;
+    height: 30%;
+    margin: 0 0 2% 0;
+  }
+  .sec-2 article .container__apropos {
+    width: 100%;
+  }
+  .sec-2 article .informations__perso {
+    margin-top: 2%;
+    flex-direction: column;
+  }
+  .sec-2 article .lien {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-2 article .reseau {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */
