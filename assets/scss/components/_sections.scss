@@ -1,0 +1,31 @@
+/*=============== SEC ===============*/
+section{
+    height: 100vh;
+}
+
+/*=============== SEC-1 ===============*/
+.sec-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-1 article{
+    text-align: center;
+}
+
+.sec-1 article p{
+    font-weight:bolder;
+    font-size: large;
+    line-height: 2rem;
+    span{
+        color: var(--first-color);
+    }
+}
+/*=============== SEC-2 ===============*/
+
+/*=============== SEC-3 ===============*/
+
+/*=============== SEC-4 ===============*/
+
+/*=============== SEC-5 ===============*/

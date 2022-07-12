@@ -1,0 +1,63 @@
+/*=============== NAV ===============*/
+.container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.section{
+    padding: 2rem 4% 2rem 4%;
+}
+
+.nav{
+    @media screen and (max-width: 767px){
+        &__logo,
+        &__toggle,
+        &__name{
+            display: none;
+        }
+    
+        &__list{
+            position: fixed;
+            bottom: 2rem;
+            background-color: var(--container-color);
+            box-shadow: 0 1px 25px #eee;
+            // border: solid .01px white;
+            width: 90%;
+            padding: 30px 40px;
+            border-radius: 1rem;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 36px;
+            transition: .4s;
+        }
+    }
+    
+    &__link{
+        display: flex;
+        color: var(--text-color);
+        font-weight: 500;
+        transition: .3s;
+
+        & i{
+            font-size: 1.25rem;
+        }
+        &:hover{
+            filter: invert(60%) sepia(65%) saturate(351%) hue-rotate(16deg) brightness(107%) contrast(98%);
+        }
+    }
+}
+
+/* Active link */
+.active-link{
+    filter: invert(60%) sepia(65%) saturate(351%) hue-rotate(16deg) brightness(107%) contrast(98%);
+}
+
+.img__color{
+    filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(223deg) brightness(104%) contrast(104%);
+}
+
+
