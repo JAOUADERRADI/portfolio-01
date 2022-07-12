@@ -1,6 +1,6 @@
 /*=============== NAV ===============*/
 .container{
-    margin-left: 1rem;
+    margin-left:  1rem;
     margin-right: 1rem;
 }
 
@@ -18,32 +18,31 @@
     
         &__list{
             position: fixed;
-            bottom: 2rem;
-            background-color: var(--container-color);
-            box-shadow: 0 1px 25px #eee;
+            bottom:    2rem;
+            left:         0;
+            right:        0;
             // border: solid .01px white;
-            width: 90%;
-            padding: 30px 40px;
+            width:          90%;
+            padding:  30px 40px;
             border-radius: 1rem;
-            left: 0;
-            right: 0;
-            margin: 0 auto;
-            display: flex;
+            column-gap:    36px;
+            transition:     .4s;
+            margin:          0 auto;
+            display:           flex;
             justify-content: center;
-            align-items: center;
-            column-gap: 36px;
-            transition: .4s;
+            align-items:     center;
+            box-shadow:            0 1px 25px #eee;
+            background-color: var(--container-color);
         }
     }
     
     &__link{
-        display: flex;
+        display:            flex;
+        font-weight:         500;
+        transition:          .3s;
         color: var(--text-color);
-        font-weight: 500;
-        transition: .3s;
-
         & i{
-            font-size: 1.25rem;
+            font-size:   1.25rem;
         }
         &:hover{
             filter: invert(60%) sepia(65%) saturate(351%) hue-rotate(16deg) brightness(107%) contrast(98%);

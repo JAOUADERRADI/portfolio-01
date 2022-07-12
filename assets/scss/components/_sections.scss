@@ -53,12 +53,12 @@ section{
     .lien{
         margin-top:                 5%;
         display:                  flex;
+        align-items:            center;
         justify-content: space-between;
-        align-items: center;
     }
     .btn-cv{
-        padding:          8px 25px;
-        border-radius:        8px;
+        padding:        8px 25px;
+        border-radius:       8px;
         transition: all .9s ease;
         border: solid .05px var(--first-color);
         color:              var(--first-color);
@@ -84,15 +84,15 @@ section{
     justify-content: center;
     .competence{
         h2{
-            margin: 2% 0 2% 0;
+            margin:  2% 0 2% 0;
         }
         .flex{
-            display: flex;
+            display:      flex;
             padding-left: 10vw;
         }
         .img__filter{
-            width: 8vw;
-            padding: 2vw 0 3vh 2vw;
+            width:                8vw;
+            padding:    2vw 0 3vh 2vw;
             transition: all .04s ease;
             filter: invert(56%) sepia(2%) saturate(0%) hue-rotate(354deg) brightness(89%) contrast(93%);
         }
@@ -172,12 +172,12 @@ section{
             .flex{
                 width: 100%;
                 display:          flex;
-                align-items: center;
+                align-items:    center;
                 flex-direction: column;
             }
             .img__filter{
-                width: 25vw;
-                padding: 2vh 5vw 0 0;
+                width:               25vw;
+                padding:      2vh 5vw 0 0;
                 transition: all .04s ease;
                 filter: invert(56%) sepia(2%) saturate(0%) hue-rotate(354deg) brightness(89%) contrast(93%);
             }
@@ -197,8 +197,8 @@ section{
 //         }
 //         .card{
 //             position: relative;
-//             width: 200px;
-//             height: 250px;
+//             width:       200px;
+//             height:      250px;
 //             background-image: url(https://cdn.pixabay.com/photo/2022/06/10/14/21/castle-7254622_960_720.jpg);
 //             border: 1px solid;
 //         }
