@@ -180,6 +180,10 @@ a {
 section {
   height: 100vh;
 }
+section p {
+  font-size: large;
+  line-height: 2rem;
+}
 
 /*=============== SEC-1 ===============*/
 .sec-1 {
@@ -202,6 +206,30 @@ section {
 }
 
 /*=============== SEC-2 ===============*/
+.sec-2 article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.sec-2 article .img {
+  width: 250px;
+  height: 400px;
+  border: solid #eee;
+}
+.sec-2 article .container__apropos {
+  width: 26%;
+  margin-left: 2%;
+}
+.sec-2 article .container__apropos span {
+  color: var(--first-color);
+}
+.sec-2 article .informations__perso {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
 /*=============== SEC-3 ===============*/
 /*=============== SEC-4 ===============*/
 /*=============== SEC-5 ===============*/
@@ -343,6 +371,10 @@ section {
 section {
   height: 100vh;
 }
+section p {
+  font-size: large;
+  line-height: 2rem;
+}
 
 /*=============== SEC-1 ===============*/
 .sec-1 {
@@ -365,6 +397,30 @@ section {
 }
 
 /*=============== SEC-2 ===============*/
+.sec-2 article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.sec-2 article .img {
+  width: 250px;
+  height: 400px;
+  border: solid #eee;
+}
+.sec-2 article .container__apropos {
+  width: 26%;
+  margin-left: 2%;
+}
+.sec-2 article .container__apropos span {
+  color: var(--first-color);
+}
+.sec-2 article .informations__perso {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
 /*=============== SEC-3 ===============*/
 /*=============== SEC-4 ===============*/
 /*=============== SEC-5 ===============*//*# sourceMappingURL=styles.css.map */

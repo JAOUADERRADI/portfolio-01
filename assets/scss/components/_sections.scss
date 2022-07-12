@@ -1,12 +1,17 @@
 /*=============== SEC ===============*/
 section{
     height: 100vh;
+    p{
+        // font-weight: bolder;
+        font-size:    large;
+        line-height:   2rem;
+    }
 }
 
 /*=============== SEC-1 ===============*/
 .sec-1{
-    display: flex;
-    align-items: center;
+    display:           flex;
+    align-items:     center;
     justify-content: center;
 }
 
@@ -15,14 +20,38 @@ section{
 }
 
 .sec-1 article p{
-    font-weight:bolder;
-    font-size: large;
-    line-height: 2rem;
+    font-weight: bolder;
+    font-size:    large;
+    line-height:   2rem;
     span{
         color: var(--first-color);
     }
 }
 /*=============== SEC-2 ===============*/
+.sec-2 article{
+    display:           flex;
+    align-items:     center;
+    justify-content: center;
+    height: 100vh;
+    .img{
+        width:         250px;
+        height:        400px;
+        border: solid #eee;
+    }
+    .container__apropos{
+        width:      26%;
+        margin-left: 2%;
+        span{
+            color: var(--first-color);
+        }
+    }
+    .informations__perso{
+        margin-top:                 2%;
+        display:                  flex;
+        justify-content: space-between;
+    }
+}
+
 
 /*=============== SEC-3 ===============*/
 
