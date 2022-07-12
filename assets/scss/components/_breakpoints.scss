@@ -5,7 +5,7 @@
     }
 }
 
-/* For medium devices */
+/* Tablet and smartphone */
 @media screen and (min-width: 576px){
     .nav__list{
         width: 332px;
@@ -85,7 +85,6 @@
     transform: rotate(180deg);
 }
 
-/* For 2K & 4K resolutions */
 @media screen and (min-width: 2048px) {
     body {
         zoom: 1.7;
