@@ -9,7 +9,6 @@
   --body-color: #49405B;
   --container-color: #49405B;
   /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
   --normal-font-size: .938rem;
 }
@@ -49,7 +48,7 @@ a {
          column-gap: 20px;
   }
 }
-/* For medium devices */
+/* Tablet and smartphone */
 @media screen and (min-width: 576px) {
   .nav__list {
     width: 332px;
@@ -110,7 +109,6 @@ a {
   transform: rotate(180deg);
 }
 
-/* For 2K & 4K resolutions */
 @media screen and (min-width: 2048px) {
   body {
     zoom: 1.7;
@@ -358,19 +356,6 @@ section p {
   }
   .sec-3 .competence .display {
     display: none;
-  }
-  .sec-4 {
-    height: 100vh;
-  }
-  .sec-4 .cards {
-    perspective: 500px;
-  }
-  .sec-4 .card {
-    position: relative;
-    width: 200px;
-    height: 250px;
-    background-image: url(https://cdn.pixabay.com/photo/2022/06/10/14/21/castle-7254622_960_720.jpg);
-    border: 1px solid;
   }
 }
 /*=============== BREAKPOINTS ===============*/
@@ -380,7 +365,7 @@ section p {
          column-gap: 20px;
   }
 }
-/* For medium devices */
+/* Tablet and smartphone */
 @media screen and (min-width: 576px) {
   .nav__list {
     width: 332px;
@@ -441,7 +426,6 @@ section p {
   transform: rotate(180deg);
 }
 
-/* For 2K & 4K resolutions */
 @media screen and (min-width: 2048px) {
   body {
     zoom: 1.7;
@@ -689,18 +673,5 @@ section p {
   }
   .sec-3 .competence .display {
     display: none;
-  }
-  .sec-4 {
-    height: 100vh;
-  }
-  .sec-4 .cards {
-    perspective: 500px;
-  }
-  .sec-4 .card {
-    position: relative;
-    width: 200px;
-    height: 250px;
-    background-image: url(https://cdn.pixabay.com/photo/2022/06/10/14/21/castle-7254622_960_720.jpg);
-    border: 1px solid;
   }
 }/*# sourceMappingURL=styles.css.map */
