@@ -9,8 +9,6 @@
 }
 
 .nav{
-    position:      absolute;
-    z-index:          10000;
     @media screen and (max-width: 767px){
         &__logo,
         &__toggle,
@@ -33,7 +31,7 @@
             display:           flex;
             justify-content: center;
             align-items:     center;
-            box-shadow:             0 1px 5px #eee;
+            box-shadow:            0 1px 25px #eee;
             background-color: var(--container-color);
         }
     }

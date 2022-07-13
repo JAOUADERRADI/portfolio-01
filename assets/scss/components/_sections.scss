@@ -83,8 +83,9 @@ section{
     align-items:     center;
     justify-content: center;
     .competence{
+        z-index:             -1;
         h2{
-            margin:  2% 0 2% 0;
+            margin:  2% 0 5% 0;
         }
         .flex{
             display:      flex;
@@ -92,7 +93,6 @@ section{
         }
         .img__filter{
             width:                8vw;
-            padding:    2vw 0 3vh 2vw;
             transition: all .04s ease;
             filter: invert(56%) sepia(2%) saturate(0%) hue-rotate(354deg) brightness(89%) contrast(93%);
         }
