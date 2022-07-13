@@ -9,6 +9,8 @@
 }
 
 .nav{
+    position:      absolute;
+    z-index:          10000;
     @media screen and (max-width: 767px){
         &__logo,
         &__toggle,
