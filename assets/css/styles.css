@@ -8,6 +8,11 @@
   --text-color: #eee;
   --body-color: #49405B;
   --container-color: #49405B;
+  --clr-dark: rgb(13, 17, 19);
+  --clr-light: #fff;
+  --clr-accent: rgb(222, 52, 0);
+  --clr-accenr-dark: rgb(163, 38, 0);
+  --clr-secondary: rgb(0, 62, 163);
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
   --normal-font-size: .938rem;
@@ -259,11 +264,8 @@ section p {
   align-items: center;
   justify-content: center;
 }
-.sec-3 .competence {
-  z-index: -1;
-}
 .sec-3 .competence h2 {
-  margin: 2% 0 5% 0;
+  margin: 2% 0 2% 0;
 }
 .sec-3 .competence .flex {
   display: flex;
@@ -271,6 +273,7 @@ section p {
 }
 .sec-3 .competence .img__filter {
   width: 8vw;
+  padding: 2vw 0 3vh 2vw;
   transition: all 0.04s ease;
   filter: invert(56%) sepia(2%) saturate(0%) hue-rotate(354deg) brightness(89%) contrast(93%);
 }
@@ -578,11 +581,8 @@ section p {
   align-items: center;
   justify-content: center;
 }
-.sec-3 .competence {
-  z-index: -1;
-}
 .sec-3 .competence h2 {
-  margin: 2% 0 5% 0;
+  margin: 2% 0 2% 0;
 }
 .sec-3 .competence .flex {
   display: flex;
@@ -590,6 +590,7 @@ section p {
 }
 .sec-3 .competence .img__filter {
   width: 8vw;
+  padding: 2vw 0 3vh 2vw;
   transition: all 0.04s ease;
   filter: invert(56%) sepia(2%) saturate(0%) hue-rotate(354deg) brightness(89%) contrast(93%);
 }
